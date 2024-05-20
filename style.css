@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500&display=swap');
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #F9F5E3;
+  color: rgb(0,0,0,0.7);
+  font-size: 16px;
+  line-height: 2;
+  font-weight: 300;
+}
+
+.container {
+  margin: 30px auto;
+  width: 700px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+a {
+  color: #D14081;
+  text-decoration: none;
+}
+
+/* HEADERS */
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  color: #7E2E84;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+h1, h2 {
+  line-height: 2.5;
+}
+
+h2 {
+  color: #EF798A;
+  font-size: 20px;
+}
+
+/* IMAGES */
+
+.img-profile {
+  width: 100px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+/* CARDS */
+
+.card-1 {
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.card-white {
+  background: #ffffff;
+  padding: 30px 30px 50px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(126, 33, 33, 0.1);
+}
+
+/* INLINE LISTS */
+
+.card-1 ul {
+  list-style-position: inside;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline;
+  padding: 0px, 20px;
+}
+
+/* BUTTONS */
+
+.btn-magenta {
+  background-color: #D14081;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: #ffffff;
+}
+
+.btn-magenta:hover {
+  background-color: #ffffff;
+  color: #D14081;
+  border: 1px solid #D14081;
+  transition: .3s;
+}
+
+/* ICONS */
+
+.fa-brands {
+  font-size: 40px;
+  margin: 0 10px;
+  color: rgb(126, 46, 132, 0.5);
+}
+
+.fa-brands:hover {
+  color: rgb(126, 46, 132);
+}
+
+/* PARAGRAPHS */
+
+.intro {
+  padding-bottom: 20px;
+}
+
+/* MEDIAS QUERIES */
+
+@media (max-width: 960px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 600px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 400px;
+  }
+}
+
+@media (max-width: 450px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 350px;
+  }
+}
