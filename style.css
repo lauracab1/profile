@@ -79,6 +79,7 @@ h2 {
 .list-inline > li {
   display: inline;
   padding: 0px, 20px;
+  margin: 0 10px;
 }
 
 /* BUTTONS */
@@ -101,7 +102,6 @@ h2 {
 
 .fa-brands {
   font-size: 40px;
-  margin: 0 10px;
   color: rgb(126, 46, 132, 0.5);
 }
 
